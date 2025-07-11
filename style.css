@@ -1,15 +1,16 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-  background-color: #f7f7f7;
+  background-color:#fce4ec;
   color: #333;
 }
 
 header {
   text-align: center;
-  background-color: #e0f7fa;
+  background-color: #da70d6;
   padding: 20px;
   border-radius: 10px;
+  color: #ffffff;
 }
 
 section {
@@ -23,4 +24,21 @@ section {
 footer {
   margin-top: 30px;
   text-align: center;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  color: #663399;
+  background-color: #ffdde6;
+  padding: 6px 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: #ffcbdb;
+  text-decoration: underline;
 }
